@@ -13,10 +13,10 @@ a:hover {
 }
 #logo img{
     float: left;
-    height: 35px;
+    height: 70px;
     position: relative;
-    top: 5px;
-    left: 10px;
+    top: 1px;
+    left: 20px;
 }
 #header {
     width: 100%;
