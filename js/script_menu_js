@@ -1,0 +1,18 @@
+const btnMobile = document.getElementById("btn-mobile");
+
+function toggleMenu(event) {
+    if(event.type === "touchstart") event.preventDeFaut();
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("active");
+    const active = nav.classList.contains("active")   
+    event.currentTarget.setAttribuite("aria-expanded",active);
+      if (active) {
+         event.currentTarget.setAttribuite("arial-label", "fechar menu");
+    } 
+    else {
+        event.currentTarget.setAttribuite("arial-label", "abrir menu");
+    }
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
