@@ -113,10 +113,10 @@ a:hover {
 .embed-container {
     position: relative;
     padding-bottom: 0;
-    height: 200px;
+    height: auto;
     min-width: 100%;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-top: 0;
     padding-left: 30px;
     padding-right: 30px;
@@ -128,9 +128,12 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border: solid thick rgb(225, 0, 255);
+    border: solid thick rgb(57, 5, 247);
     border-radius: 1em;
-    box-shadow: grey 0.5em 0.5em 0.3em;
+    box-shadow: rgba(139, 125, 125, 0.548) 0.5em 0.5em 0.3em;
+}
+.embed-container .col-6{
+    margin-top: 10px;
 }
 
 /* CSS configurando Banner */
@@ -268,7 +271,7 @@ a:hover {
 .embed-container {
     position: relative;
     padding-bottom: 0;
-    height: 200px;
+    height: auto;
     min-width: 100%;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -283,7 +286,10 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    border: solid thick rgb(225, 0, 255);
+    border: solid thick rgb(46, 1, 250);
     border-radius: 1em;
     box-shadow: grey 0.5em 0.5em 0.3em;
+}
+.embed-container .col-6{
+    margin-top: 10px;
 }
